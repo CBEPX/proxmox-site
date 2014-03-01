@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Asciidoctor 0.1.4">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>List of implemented API parts</title>
+<link rel="stylesheet" href="./asciidoctor.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css">
+</head>
+<body class="article">
+<div id="header">
+<h1>List of implemented API parts</h1>
+<span id="author" class="author">Nicolas Ledez</span><br>
+<span id="email" class="email"><a href="mailto:github.public@ledez.net">github.public@ledez.net</a></span><br>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p><i class="icon-check-empty"></i> /access GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/acl GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/acl PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/domains GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/domains POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/domains/{realm} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/domains/{realm} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/domains/{realm} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/groups GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/groups POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/groups/{groupid} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/groups/{groupid} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/groups/{groupid} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/password PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/roles GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/roles POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/roles/{roleid} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/roles/{roleid} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/roles/{roleid} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/ticket POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/users GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/users POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/users/{userid} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/users/{userid} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /access/users/{userid} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/backup GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/backup POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/backup/{id} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/backup/{id} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/backup/{id} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/changes GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/changes POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/changes DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/config GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/groups GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/groups POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/groups/{id} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/groups/{id} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/ha/groups/{id} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/log GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/nextid GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/options GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/options PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/resources GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/status GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /cluster/tasks GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/aplinfo GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/aplinfo POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/bootlog GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/dns GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/dns PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/netstat GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/network GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/network POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/network DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/network/{iface} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/network/{iface} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/network/{iface} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz GET</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid} GET</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz/{vmid} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz/{vmid}/config GET</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz/{vmid}/config PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/initlog GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/migrate POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/rrd GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/rrddata GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/status GET</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz/{vmid}/status/current GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/status/mount POST</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz/{vmid}/status/shutdown POST</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz/{vmid}/status/start POST</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/openvz/{vmid}/status/stop POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/status/ubc GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/status/umount POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/openvz/{vmid}/vncproxy POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/clone POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/config GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/config PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/feature GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/migrate POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/monitor POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/resize PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/rrd GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/rrddata GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/sendkey PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/snapshot GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/snapshot POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/snapshot/{snapname} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/snapshot/{snapname} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/snapshot/{snapname}/config GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/snapshot/{snapname}/config PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/snapshot/{snapname}/rollback POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/status GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/status/current GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/status/reset POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/status/resume POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/status/shutdown POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/status/start POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/status/stop POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/status/suspend POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/template POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/unlink PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/qemu/{vmid}/vncproxy POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/rrd GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/rrddata GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/scan GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/scan/iscsi GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/scan/lvm GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/scan/nfs GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/scan/usb GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/services GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/services/{service} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/services/{service}/reload POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/services/{service}/restart POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/services/{service}/start POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/services/{service}/state GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/services/{service}/stop POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/startall POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/status GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/status POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/stopall POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage} GET</p>
+</li>
+<li>
+<p><i class="icon-check"></i> ~ /nodes/{node}/storage/{storage}/content GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage}/content POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage}/content/{volume} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage}/content/{volume} POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage}/content/{volume} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage}/rrd GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage}/rrddata GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage}/status GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/storage/{storage}/upload POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/subscription GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/subscription POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/subscription PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/syslog GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/tasks GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/tasks/{upid} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/tasks/{upid} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/tasks/{upid}/log GET</p>
+</li>
+<li>
+<p><i class="icon-check"></i> /nodes/{node}/tasks/{upid}/status GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/time GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/time PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/ubcfailcnt GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/version GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/vncshell POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /nodes/{node}/vzdump POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /pools GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /pools POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /pools/{poolid} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /pools/{poolid} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /pools/{poolid} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /storage GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /storage POST</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /storage/{storage} GET</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /storage/{storage} PUT</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /storage/{storage} DELETE</p>
+</li>
+<li>
+<p><i class="icon-check-empty"></i> /version GET</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2014-03-01 11:31:58 CET
+</div>
+</div>
+</body>
+</html>
